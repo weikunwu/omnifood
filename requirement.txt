@@ -2,8 +2,19 @@ primary color: #e67e22
 dimmed color: #cf6d17;
 
 icon library:  
-ionicons v4
-https://ionicons.com/v4/usage
+ionicons v2
+https://ionicons.com/v2/
+
+embed the link to the head:
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css"
+  integrity="sha512-JApjWRnfonFeGBY7t4yq8SWr1A6xVYEJgO/UMIYONxaR3C9GETKUg0LharbJncEzJF5Nmiv+Pr5QNulr81LjGQ=="
+  crossorigin="anonymous"
+/>
+
+usage:
+<i class="ion-ios-infinite-outline"></i>
 
 icons used: 
 ion-ios-infinite-outline
@@ -40,7 +51,7 @@ Show me more
 second title:
 Get food fast &mdash; not fast food
 description:
-Hello, we're Omnifood, your new premium food delivery service. We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
+Hello, we're Omnifood, your new premium food delivery service.Â We know you're always busy. No time for cooking. So let us take care of that, we're really good at it, we promise!
 
 four blocks description:
 Up to 365 days/year
