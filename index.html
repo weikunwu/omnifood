@@ -29,6 +29,14 @@
             </ul>
         </nav>
 
+        <nav class="mobile-nav">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+
         <div class="hero-text-container">
             <div class="hero-text-item-container">
                 <h1 class="hero-text">GOODBYE JUNK FOOD.</h1>
@@ -110,22 +118,25 @@
         <h1 class="title">
             How it works &mdash; Simple as 1, 2, 3
         </h1>
-        <div class="img-container">
-            <img class="app-img" alt="app image failed to load" src="./img/app-iPhone.png" />
-        </div>
-        <div class="steps-container">
-            <ol class="steps-text">
-                <li>Choose the subscription plan that best fits your needs and sign up today.</li>
-                <li>Order your delicious meal using our mobile app or website. Or you can even call us!</li>
-                <li>Enjoy your meal after less than 20 minutes. See you the next time!</li>
-            </ol>
-            <div class="download-img-box-container">
-                <div class="img-container">
-                    <img class="apple-download-img" alt="download image failed to load" src="./img/download-app.svg" />
-                </div>
-                <div class="img-container">
-                    <img class="android-download-img" alt="download image failed to load"
-                        src="./img/download-app-android.png" />
+        <div class="steps-content-container">
+            <div class="img-container">
+                <img class="app-img" alt="app image failed to load" src="./img/app-iPhone.png" />
+            </div>
+            <div class="steps-container">
+                <ol class="steps-text">
+                    <li>Choose the subscription plan that best fits your needs and sign up today.</li>
+                    <li>Order your delicious meal using our mobile app or website. Or you can even call us!</li>
+                    <li>Enjoy your meal after less than 20 minutes. See you the next time!</li>
+                </ol>
+                <div class="download-img-box-container">
+                    <div class="img-container">
+                        <img class="apple-download-img" alt="download image failed to load"
+                            src="./img/download-app.svg" />
+                    </div>
+                    <div class="img-container">
+                        <img class="android-download-img" alt="download image failed to load"
+                            src="./img/download-app-android.png" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -133,91 +144,120 @@
 
     <div class="location-bar-container">
         <h1 class="location-bar-title">WE'RE CURRENTLY IN THESE CITIES</h1>
-        <div class="location-card">
-            <div class="location-img-container">
-                <img class="location-img" alt="location image failed to load" src="./img/lisbon-3.jpg" />
+        <div class="location-cards">
+            <div class="location-card">
+                <div class="location-img-container">
+                    <img class="location-img" alt="location image failed to load" src="./img/lisbon-3.jpg" />
+                </div>
+                <h1 class="location">LISBON</h1>
+                <ul class="location-description">
+                    <li> <i class="ion-ios-person"></i><span>1600+ happy eaters</span></li>
+                    <li> <i class="ion-ios-star"></i><span>60+ top chefs</span></li>
+                    <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_lx</a></li>
+                </ul>
             </div>
-            <h1 class="location">LISBON</h1>
-            <ul class="location-description">
-                <li> <i class="ion-ios-person"></i><span>1600+ happy eaters</span></li>
-                <li> <i class="ion-ios-star"></i><span>60+ top chefs</span></li>
-                <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_lx</a></li>
-            </ul>
-        </div>
-        <div class="location-card">
-            <div class="location-img-container">
-                <img class="location-img" alt="location image failed to load" src="./img/san-francisco.jpg" />
+            <div class="location-card">
+                <div class="location-img-container">
+                    <img class="location-img" alt="location image failed to load" src="./img/san-francisco.jpg" />
+                </div>
+                <h1 class="location">SAN FRANCISCO</h1>
+                <ul class="location-description">
+                    <li> <i class="ion-ios-person"></i><span>3700+ happy eaters</span></li>
+                    <li> <i class="ion-ios-star"></i><span>160+ top chefs</span></li>
+                    <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_sf</a></li>
+                </ul>
             </div>
-            <h1 class="location">SAN FRANCISCO</h1>
-            <ul class="location-description">
-                <li> <i class="ion-ios-person"></i><span>3700+ happy eaters</span></li>
-                <li> <i class="ion-ios-star"></i><span>160+ top chefs</span></li>
-                <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_sf</a></li>
-            </ul>
-        </div>
-        <div class="location-card">
-            <div class="location-img-container">
-                <img class="location-img" alt="location image failed to load" src="./img/berlin.jpg" />
+            <div class="location-card">
+                <div class="location-img-container">
+                    <img class="location-img" alt="location image failed to load" src="./img/berlin.jpg" />
+                </div>
+                <h1 class="location">BERLIN</h1>
+                <ul class="location-description">
+                    <li> <i class="ion-ios-person"></i><span>2300+ happy eaters</span></li>
+                    <li> <i class="ion-ios-star"></i><span>110+ top chefs</span></li>
+                    <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_berlin</a></li>
+                </ul>
             </div>
-            <h1 class="location">BERLIN</h1>
-            <ul class="location-description">
-                <li> <i class="ion-ios-person"></i><span>2300+ happy eaters</span></li>
-                <li> <i class="ion-ios-star"></i><span>110+ top chefs</span></li>
-                <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_berlin</a></li>
-            </ul>
-        </div>
-        <div class="location-card">
-            <div class="location-img-container">
-                <img class="location-img" alt="location image failed to load" src="./img/london.jpg" />
+            <div class="location-card">
+                <div class="location-img-container">
+                    <img class="location-img" alt="location image failed to load" src="./img/london.jpg" />
+                </div>
+                <h1 class="location">LONDON</h1>
+                <ul class="location-description">
+                    <li> <i class="ion-ios-person"></i><span>1200+ happy eaters</span></li>
+                    <li> <i class="ion-ios-star"></i><span>50+ top chefs</span></li>
+                    <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_london</a></li>
+                </ul>
             </div>
-            <h1 class="location">LONDON</h1>
-            <ul class="location-description">
-                <li> <i class="ion-ios-person"></i><span>1200+ happy eaters</span></li>
-                <li> <i class="ion-ios-star"></i><span>50+ top chefs</span></li>
-                <li> <i class="ion-social-twitter"></i><a href="#top">@omnifood_london</a></li>
-            </ul>
         </div>
     </div>
 
     <div class="review-bar-container">
-        <img class="review-background-img" alt="background image failed to load" src="./img/back-customers.jpg" />
-        <div class="review-bar-text-container">
-            <div class="review-bar-title-container">
-                <h1 class="review-bar-title">OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
-            </div>
-            <div class="review-cards-container">
-                <div class="review-card">
-                    <blockquote class="quote">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
-                    <div class="customer-card">
-                        <div class="customer-img-container">
-                            <img class="customer-img" alt="customer image failed to load" src="./img/customer-1.jpg" />
-                        </div>
-                        <p class="customer-name">Alberto Duncan</p>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <blockquote class="quote">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
-                    <div class="customer-card">
-                        <div class="customer-img-container">
-                            <img class="customer-img" alt="customer image failed to load" src="./img/customer-1.jpg" />
-                        </div>
-                        <p class="customer-name">Alberto Duncan</p>
-                    </div>
-                </div>
-                <div class="review-card">
-                    <blockquote class="quote">Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
-                    <div class="customer-card">
-                        <div class="customer-img-container">
-                            <img class="customer-img" alt="customer image failed to load" src="./img/customer-1.jpg" />
-                        </div>
-                        <p class="customer-name">Alberto Duncan</p>
-                    </div>
-                </div>
-            </div>
-
+        <div class="review-bar-title-container">
+            <h1 class="review-bar-title">OUR CUSTOMERS CAN'T LIVE WITHOUT US</h1>
         </div>
-
+        <div class="review-cards-container">
+            <div class="review-card">
+                <blockquote class="quote">Omnifood is just awesome! I just launched a startup which leaves me with no
+                    time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my
+                    daily meals!</blockquote>
+                <div class="customer-card">
+                    <div class="customer-img-container">
+                        <img class="customer-img" alt="customer image failed to load" src="./img/customer-1.jpg" />
+                    </div>
+                    <div class="customer-name-container">
+                        <p class="customer-name">Alberto Duncan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <blockquote class="quote">Inexpensive, healthy and great-tasting meals, delivered right to my home. We
+                    have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family
+                    are so in love!</blockquote>
+                <div class="customer-card">
+                    <div class="customer-img-container">
+                        <img class="customer-img" alt="customer image failed to load" src="./img/customer-2.jpg" />
+                    </div>
+                    <div class="customer-name-container">
+                        <p class="customer-name">Joana Silva</p>
+                    </div>
+                </div>
+            </div>
+            <div class="review-card">
+                <blockquote class="quote">I was looking for a quick and easy food delivery service in San Franciso. I
+                    tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up
+                    the great work!</blockquote>
+                <div class="customer-card">
+                    <div class="customer-img-container">
+                        <img class="customer-img" alt="customer image failed to load" src="./img/customer-3.jpg" />
+                    </div>
+                    <div class="customer-name-container">
+                        <p class="customer-name">Milton Chapman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <div class="pricing-bar-container">
+        <div class="pricing-bar-title-container">
+            <h1 class="pricing-bar-title">START EATING HEALTHY TODAY</h1>
+        </div>
+        <div class="pricing-cards-container">
+            <div class="pricing-card">
+                <blockquote class="quote">Omnifood is just awesome! I just launched a startup which leaves me with no
+                    time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my
+                    daily meals!</blockquote>
+                <div class="customer-card">
+                    <div class="customer-img-container">
+                        <img class="customer-img" alt="customer image failed to load" src="./img/customer-1.jpg" />
+                    </div>
+                    <div class="customer-name-container">
+                        <p class="customer-name">Alberto Duncan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>
