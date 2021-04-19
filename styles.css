@@ -91,7 +91,7 @@
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight:300;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 20px;
     padding-left: 25px;
     padding-right: 25px;
@@ -138,6 +138,7 @@
     font-family: 'Lato', sans-serif;
     font-weight:300;
     color:#555;
+    text-align: center;
 }
 
 .description-text-area-container .title-bar{
@@ -225,6 +226,7 @@
     font-family: 'Lato', sans-serif;
     font-weight:300;
     color:#555;
+    text-align: center;
 }
 
 .steps-bar-container .title::after{
@@ -313,6 +315,7 @@
     font-family: 'Lato', sans-serif;
     font-weight:300;
     color:#555;
+    text-align: center;
 }
 
 .location-bar-title::after{
